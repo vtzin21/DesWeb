@@ -1,0 +1,75 @@
+body {
+    font-family: "Montserrat", sans-serif !important;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.containerI {
+    text-align: center;
+    padding: 20px;
+}
+
+.containerII {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d585892;
+}
+
+.containerII h1 {
+    color: #333;
+    margin: 0.65em;
+    font-weight: 500;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sobre {
+    width: 80px;
+    height: 2.5em;
+    border: 0;
+    border-radius: 5px;
+    background: rgba(244, 67, 54, .7);
+    color: white;
+}
+.hide {
+    display: none;
+}
+
+.buttonn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bottom-container {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+
+.logout-buttonI {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
